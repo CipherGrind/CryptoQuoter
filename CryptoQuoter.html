@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto Quoter</title>
+    <link rel="stylesheet" href="./CryptoQuoter.css" />
+  </head>
+  <body>
+    <form action="#" method="POST" class="exchange-form">
+      <br />
+      <h2>CRYPTO QUOTER</h2>
+      <br />
+      <br />
+      <h3>Network: Binance Smart Chain</h3>
+      <h5>[ Pick 2 Crypto Currencies to get a quote ]</h5>
+      <br />
+      <br />
+      <div class="form-row">
+        <label>
+          From:
+          <select name="from-token">
+            <!-- <option>Select below</option> -->
+          </select>
+        </label>
+      </div>
+      <br />
+      <div class="form-row">
+        <label>
+          To:
+          <select name="to-token">
+            <!-- <option>Select below</option> -->
+          </select>
+        </label>
+      </div>
+      <br />
+      <br />
+      <div class="form-button">
+        <button type="submit" class="js-submit-quote">Get Quote</button>
+      </div>
+    </form>
+    <br />
+    <br />
+    <div class="js-quote-container"></div>
+
+    <script src="./CryptoQuoter.js"></script>
+  </body>
+</html>
